@@ -63,3 +63,17 @@ https://account.xiaomi.com ，然后按F12键，调出开发工具，点击开�
 * QQ 群：765883686（为控制人数和人员质量，需付费10元入群。微信或支付宝支付后，申请入群时贴上转账单号即可。
 
 ![](https://www.sunbeatus.com/xiaomi_cloud_qq_group.jpg)
+
+## 个人备份
+
+```shell
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 安装依赖（无 requirements.txt 版）
+pip install requests openpyxl Pillow psutil cryptography
+
+# 运行
+python xiaomi.py
+```
